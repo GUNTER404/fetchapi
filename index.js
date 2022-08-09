@@ -19,6 +19,6 @@ app.get('/',async(req,res)=>{
   }
 })
 setInterval(async()=>{
-  await fetch(`https://${process.env['app']}.herokuapp.com`)
+  await fetch(`https://${process.env['APP_NAME']}.herokuapp.com`)
 })
 app.listen()
