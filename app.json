@@ -1,22 +1,33 @@
 {
-    "name": "Aquabot - MD",
-    "description": "AQUABOT  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://i.ibb.co/V9jYrQC/aqua-md.jpg",
-    "keywords": ["whatsapp", "userbot", "aqua", "bot", "ai" , "MD" ],
-    "repository": "https://github.com/GUNTER404/fetchapi",
-    "website":   "https://aquabot.ga/",
-    "success_url": "https://aquabot.ga",
-    "stack": "container",
-    "env": {
-      "appnam": {
-        "description": "",
-        "required": true
+   "name":"Aquabot - MD",
+   "description":"AQUABOT  - Makes it easy and fun to use Whatsapp.",
+   "logo":"https://i.ibb.co/V9jYrQC/aqua-md.jpg",
+   "keywords":[
+      "whatsapp",
+      "userbot",
+      "aqua",
+      "bot",
+      "ai",
+      "MD"
+   ],
+   "repository":"https://github.com/GUNTER404/fetchapi",
+   "website":"https://aquabot.ga/",
+   "success_url":"https://aquabot.ga",
+   "stack":"container",
+   "env":{
+      "appnam":{
+         "description":"",
+         "required":true
       }
-  },
-    "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      }]
+   },
+   "addons":[
+      {
+         "plan":"heroku-postgresql"
+      }
+   ],
+   "buildpacks":[
+      {
+         "url":"heroku-community/apt"
+      }
+   ]
 }
